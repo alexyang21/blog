@@ -1,4 +1,7 @@
 Blog::Application.routes.draw do
+
+  root :to => 'Pages#home'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
